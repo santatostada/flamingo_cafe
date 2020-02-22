@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Lacquer&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: #999289;
+  font-family: 'Lacquer', sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 60px;
+  padding: 10px 0.5% 0px 0.5%;
+  background: transparent;
+  float: left;
+  position: fixed;
+}
+
+header .logo {
+  width: 30%;
+  font-size: 1.1em;
+}
+
+.common {
+  float: left;
+ 	padding-left: 3%;
+  color: #2C210F;
+ 	height: 450px;
+}
+
+
+.logo-img {
+  width: 60px;
+}
+
+.menu-title {
+  font-size: 2em;
+}
+
+
+.about {
+  float: right;
+  width: 70%;
+  text-align: center;
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+
+.about > a {color: #fff;}
+
+.about > a:hover{
+  color: #ccc;
+  text-decoration: underline;
+}
+
+.about > a:not(:last-child){
+  margin-right: 10%;
+}
+
+.top {
+  width: 100%;
+  height: 800px;
+  background: url(https://roomester.ru/wp-content/uploads/2018/07/dizajn-kofejni-2.jpg);
+  background-blend-mode: multiply;
+  background-color: #999289;
+  background-size: cover;
+  text-align: right;
+  color: #fff;
+}
+
+.top h1 {
+  font-size: 7em;
+  padding-top: 20%;
+  padding-right: 10%;
+}
+
+.top h5 {
+  margin-right: 40px;
+  width: 40%;
+  float: right;
+  padding-top: 3%;
+  font-size: 40px;
+  color: #E8E7E6;
+  font-family: 'Dancing Script', cursive;
+}
+
+.desc {
+  padding-top: 20px;
+  width: 100%;
+  height: 450px;
+}
+
+
+.cafe-description {
+  padding-left: 3%;
+	font-size: 25px;
+	text-align: center;
+	line-height: 1.5;
+  width: 50%;
+  float: left;
+}
+
+.andorra-img {
+  width: 40%;
+  float: left;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-bottom: 20px;
+}
+
+.dessert {
+	float: left;
+	width: 30%;
+	margin: 20px;
+
+}
+
+.dessert h5 {
+  font-size: 2em;
+  padding: 20px;
+}
+
+.dessert-img {
+  width: 350px;
+  float: left;
+  margin-top: 20px;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-bottom: 20px;
+}
+
+.icon-desc {
+  float: left;
+	width: 25%;
+	margin: 10px;
+  list-style-type: none;
+}
+
+.icon {
+  width: 50px;
+  float: left;
+  margin-top: 20px;
+  padding-left: 20%;
+  padding-right: 3%;
+  padding-bottom: 20px;
+}
+
+.contacts {
+  padding: 3%;
+  padding-left: 30%;
+  padding-right: 20%;
+}
+
+.review {
+  margin: 100px;
+}
+
+.review h5 {
+  margin-left: 100%;
+  font-size: 2em;
+}
+
+.form-input {
+  margin-top: 15px;
+  margin-left: 80%;
+  width: 70%;
+}
+
+.form-input label {
+  cursor: pointer;
+  font-size: 2 em;
+  font-family: font-family: 'Dancing Script', cursive;
+}
+
+.form-input input, .form-input textarea {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  width: 100%;
+  padding: 10px 2%;
+  border-radius: 7px;
+  border: none;
+  background-color: #ccc;
+}
+
+.btn {
+  float: left;
+  border-radius: 5px;
+  padding: 5px 9px;
+  background-color: #735F41;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #423622;
+}
+
+.social {
+  float: right;
+	width: 100%;
+	margin-left: 0;
+  list-style-type: none;
+}
+
+.icons {
+  width: 50px;
+  float: left;
+  margin-top: 10px;
+  padding-left: 10%;
+  padding-right: 3%;
+  padding-bottom: 10px;
+}

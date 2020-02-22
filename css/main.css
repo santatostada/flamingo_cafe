@@ -172,8 +172,9 @@ header .logo {
 }
 
 .review {
-  display: inline-flex;
   text-align: center;
+  width: 100%;
+  margin: auto auto;
 }
 
 .review h5 {
@@ -181,8 +182,9 @@ header .logo {
 }
 
 .form-input {
+  margin: auto auto;
   margin-top: 15px;
-  width: 70%;
+  width: 50%;
 }
 
 .form-input label {
@@ -191,6 +193,7 @@ header .logo {
 }
 
 .form-input input, .form-input textarea {
+  margin: 0 auto;
   margin-bottom: 10px;
   margin-top: 10px;
   width: 100%;
@@ -226,7 +229,7 @@ header .logo {
 }
 
 .btn-call {
-  margin-top: 5%;
+  margin: 5%;
   float: right;
   border-radius: 10px;
   padding: 25px 25px;

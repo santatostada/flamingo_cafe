@@ -19,44 +19,172 @@ body {
 
 header {
   width: 100%;
-  height: 60px;
-  padding: 10px 0.5% 0px 0.5%;
+  height: 100px;
+  padding: 0.5%;
   background: transparent;
   float: left;
   position: fixed;
 }
 
-header .logo {
-  width: 30%;
-  font-size: 1.1em;
-  display: inline;
+
+@media (min-width: 701px) {
+  .about{
+    margin: auto;
+    width: 100%;
+    font-size: 2em;
+  }
+
+  .andorra-img {
+    width: 40%;
+    float: left;
+    padding: 3%;
+  }
+
+  .top{
+      height: 800px;
+  }
+
+  .common {
+    float: left;
+   	padding: 2%;
+    color: #2C210F;
+   	height: 70%;
+    width: 100%;
+  }
+
+  .cafe-description {
+    padding: 2%;
+  	font-size: 25px;
+  	text-align: center;
+  	line-height: 1.5;
+    width: 50%;
+    float: left;
+  }
+
+  .top h1 {
+    font-size: 7em;
+    padding-top: 20%;
+    padding-right: 10%;
+  }
+
+  .top h5 {
+    margin-right: 40px;
+    width: 40%;
+    float: right;
+    padding-top: 3%;
+    font-size: 40px;
+    color: #E8E7E6;
+    font-family: 'Dancing Script', cursive;
+  }
+
+  .icon-desc p, a{
+    color: #fff;
+    font-size: 20px;
+  }
+
+
+  .icon{
+    margin: auto;
+    display: flex;
+  }
+
+  .dessert {
+  	width: 30%;
+    text-align: center;
+  }
+
+  .dessert-img {
+    width: 350px;
+    display: flex;
+    margin: auto;
+  }
+
+}
+
+@media (max-width: 700px){
+  .top{
+    height: 500px;
+  }
+
+  .about{
+    float: left;
+    width: 100%;
+    font-size: 1.9em;
+  }
+
+  .common {
+    float: left;
+   	padding: 2%;
+    color: #2C210F;
+   	height: 80%;
+    width: 100%;
+  }
+
+  .andorra-img{
+    width: 100%;
+    margin: auto;
+    padding: 10%;
+  }
+
+  .cafe-description {
+    padding: 2%;
+  	font-size: 15px;
+  	text-align: center;
+  	line-height: 1.5;
+    width: 100%;
+    float: left;
+  }
+
+  .top h1 {
+    font-size: 3em;
+    text-align: center;
+    padding-top: 65%;
+    padding-right: 10%;
+  }
+
+  .top h5 {
+    text-align: center;
+    width: 100%;
+    float: right;
+    padding-top: 3%;
+    font-size: 30px;
+    color: #E8E7E6;
+    font-family: 'Dancing Script', cursive;
+  }
+
+  .icon-desc p{
+    color: #fff;
+    font-size: 10px;
+  }
+
+  .icon-desc a{
+    font-size: 10px;
+  }
+
+  .icon{
+    margin: auto;
+    display: flex;
+  }
+  .dessert {
+  	width: 100%;
+    text-align: center;
+  }
+
+  .dessert-img {
+    width: 70%;
+    display: flex;
+    margin: auto;
+  }
+}
+
+
+.icon-desc p, a{
+  color: #fff;
   text-align: center;
 }
-
-.common {
-  float: left;
- 	padding-left: 3%;
-  color: #2C210F;
- 	height: 450px;
-}
-
-
-.logo-img {
-  width: 60px;
-}
-
-.menu-title {
-  font-size: 2em;
-}
-
 
 .about {
-  float: right;
-  width: 70%;
   text-align: center;
-  font-size: 2em;
-  margin-bottom: 10px;
-  /* color: #2C210F; */
 }
 
 .about li {
@@ -67,7 +195,7 @@ header .logo {
 .about a {
     display: inline;
     color: #fff;
-    margin-right: 10%;
+    margin: 5%;
 }
 
 
@@ -77,9 +205,14 @@ header .logo {
 }
 
 
+
+.menu-title {
+  font-size: 2em;
+}
+
+
 .top {
   width: 100%;
-  height: 800px;
   background: url(https://roomester.ru/wp-content/uploads/2018/07/dizajn-kofejni-2.jpg);
   background-blend-mode: multiply;
   background-color: #999289;
@@ -88,20 +221,12 @@ header .logo {
   color: #fff;
 }
 
-.top h1 {
-  font-size: 7em;
-  padding-top: 20%;
-  padding-right: 10%;
-}
 
-.top h5 {
-  margin-right: 40px;
-  width: 40%;
-  float: right;
-  padding-top: 3%;
-  font-size: 40px;
-  color: #E8E7E6;
-  font-family: 'Dancing Script', cursive;
+
+.contacts {
+  width: 100%;
+  height: 20%;
+  padding: 3%;
 }
 
 .desc {
@@ -111,43 +236,11 @@ header .logo {
 }
 
 
-.cafe-description {
-  padding-left: 3%;
-	font-size: 25px;
-	text-align: center;
-	line-height: 1.5;
-  width: 50%;
-  float: left;
-}
-
-.andorra-img {
-  width: 40%;
-  float: left;
-  padding-left: 3%;
-  padding-right: 3%;
-  padding-bottom: 20px;
-}
-
-.dessert {
-	float: left;
-	width: 30%;
-	margin: 20px;
-
-}
-
 .dessert h5 {
   font-size: 2em;
-  padding: 20px;
+  text-align: center;
 }
 
-.dessert-img {
-  width: 350px;
-  float: left;
-  margin-top: 20px;
-  padding-left: 3%;
-  padding-right: 3%;
-  padding-bottom: 20px;
-}
 
 .icon-desc {
   float: left;
@@ -158,18 +251,8 @@ header .logo {
 
 .icon {
   width: 50px;
-  float: left;
-  margin-top: 20px;
-  padding-left: 20%;
-  padding-right: 3%;
-  padding-bottom: 20px;
 }
 
-.contacts {
-  padding: 3%;
-  padding-left: 30%;
-  padding-right: 20%;
-}
 
 .review {
   text-align: center;
@@ -240,8 +323,4 @@ header .logo {
 
 .btn-call:hover {
   background-color: #423622;
-}
-
-.tel {
-  color: white;
 }
